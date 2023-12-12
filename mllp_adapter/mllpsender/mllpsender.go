@@ -32,8 +32,6 @@ const (
 	poolErrorMetric = "mllpsender-connections-pool-error"
 )
 
-var conn net.Conn
-
 // MLLPSender represents an MLLP sender.
 type MLLPSender struct {
 	addr    string
